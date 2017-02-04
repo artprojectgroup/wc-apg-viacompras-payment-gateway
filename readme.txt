@@ -28,7 +28,7 @@ Add to WooCommerce Viacompras payment gateway.
 **Art Project Group** offers [**Technical support**](http://wcprojectgroup.es/tienda/ticket-de-soporte) to configure or install ***WC - APG Viacompras payment gateway***.
 
 = Origin =
-**WC - APG Viacompras payment gateway** has been programmed from plugin [*WooCommerce Sermepa payment gateway*](https://wordpress.org/plugins/woocommerce-sermepa-payment-gateway/) from [jesusangel](https://profiles.wordpress.org/jesusangel/).
+**WC - APG Viacompras payment gateway** has been programmed from plugin [*WooCommerce Sermepa payment gateway*](https://wordpress.org/plugins/woocommerce-sermepa-payment-gateway/) by [jesusangel](https://profiles.wordpress.org/jesusangel/).
 
 = More information =
 On our official website you can learn more about [**WC - APG Viacompras payment gateway**](http://artprojectgroup.es/plugins-para-wordpress/plugins-para-woocommerce/wc-apg-viacompras-payment-gateway).
