@@ -1,0 +1,175 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-02-02 19:06+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: apg-viacompras.php:48 includes/cuadro-informacion.php:7
+msgid "Make a donation by "
+msgstr ""
+
+#: apg-viacompras.php:50 apg-viacompras.php:50 apg-viacompras.php:50
+#: apg-viacompras.php:50 includes/cuadro-informacion.php:19
+#: includes/cuadro-informacion.php:19 includes/cuadro-informacion.php:19
+#: includes/cuadro-informacion.php:19
+msgid "Follow us on "
+msgstr ""
+
+#: apg-viacompras.php:51 includes/cuadro-informacion.php:25
+msgid "More plugins on "
+msgstr ""
+
+#: apg-viacompras.php:52 apg-viacompras.php:52
+#: includes/cuadro-informacion.php:33 includes/cuadro-informacion.php:33
+msgid "Contact with us by "
+msgstr ""
+
+#: apg-viacompras.php:65
+msgid "Settings of "
+msgstr ""
+
+#: apg-viacompras.php:65
+msgid "Settings"
+msgstr ""
+
+#: apg-viacompras.php:66
+msgid "Support of "
+msgstr ""
+
+#: apg-viacompras.php:66 includes/cuadro-informacion.php:39
+msgid "Support"
+msgstr ""
+
+#: apg-viacompras.php:99 apg-viacompras.php:144 apg-viacompras.php:150
+msgid "Viacompras"
+msgstr ""
+
+#: apg-viacompras.php:100
+msgid "Pay with credit card using Viacompras (Banco de Crédito BCP)"
+msgstr ""
+
+#: apg-viacompras.php:135
+msgid "Enable/Disable"
+msgstr ""
+
+#: apg-viacompras.php:137
+msgid "Enable Viacompras"
+msgstr ""
+
+#: apg-viacompras.php:141
+msgid "Commerce name"
+msgstr ""
+
+#: apg-viacompras.php:143
+msgid "The commerce name."
+msgstr ""
+
+#: apg-viacompras.php:147
+msgid "Title"
+msgstr ""
+
+#: apg-viacompras.php:149
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: apg-viacompras.php:153
+msgid "Description"
+msgstr ""
+
+#: apg-viacompras.php:155
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: apg-viacompras.php:156
+msgid "Pay with your credit card via Viacompras"
+msgstr ""
+
+#: apg-viacompras.php:194
+msgid ""
+"Thank you for your order, please click the button below to pay with "
+"Viacompras."
+msgstr ""
+
+#: apg-viacompras.php:207
+msgid ""
+"Thank you for your order. We are now redirecting you to Viacompras to make "
+"payment."
+msgstr ""
+
+#: apg-viacompras.php:230
+msgid "Pay via Viacompras"
+msgstr ""
+
+#: apg-viacompras.php:230
+msgid "Cancel order &amp; restore cart"
+msgstr ""
+
+#: apg-viacompras.php:286
+msgid "Viacompras payment completed"
+msgstr ""
+
+#: apg-viacompras.php:293
+#, php-format
+msgid "Payment error: code: %s."
+msgstr ""
+
+#: apg-viacompras.php:372 includes/cuadro-informacion.php:44
+#, php-format
+msgid "Please, rate %s:"
+msgstr ""
+
+#: includes/cuadro-informacion.php:5
+msgid "If you enjoyed and find helpful this plugin, please make a donation:"
+msgstr ""
+
+#: includes/cuadro-informacion.php:17
+msgid "Follow us:"
+msgstr ""
+
+#: includes/cuadro-informacion.php:23
+msgid "More plugins:"
+msgstr ""
+
+#: includes/cuadro-informacion.php:31
+msgid "Contact with us:"
+msgstr ""
+
+#: includes/cuadro-informacion.php:37
+msgid "Documentation and Support:"
+msgstr ""
+
+#: includes/formulario.php:5
+msgid ""
+"Viacompras works by sending the user to Viacompras to enter their payment "
+"information."
+msgstr ""
+
+#. Name of the plugin
+msgid "WC - APG Viacompras payment gateway"
+msgstr ""
+
+#. Description of the plugin
+msgid "Add to WooCommerce Viacompras payment gateway."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/wc-apg-viacompras-payment-gateway/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Art Project Group"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://artprojectgroup.es/"
+msgstr ""
