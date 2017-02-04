@@ -10,7 +10,7 @@ WC tested up to: 2.7
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Add to WooCommerce Viacompras payment gateway.
+Add Viacompras payment gateway to WooCommerce.
 
 == Description ==
 **IMPORTANT: *WC - APG Viacompras payment gateway* required WooCommerce 2.1.0 or higher.**
@@ -69,6 +69,8 @@ If you need help to configuring or installing **WC - APG Viacompras payment gate
 
 == Screenshots ==
 1. Screenshot of WC - APG Viacompras payment gateway.
+2. Screenshot of WC - APG Viacompras payment gateway. Checkout page.
+
 
 == Changelog ==
 = 0.1 =

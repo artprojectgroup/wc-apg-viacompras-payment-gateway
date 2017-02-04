@@ -69,6 +69,7 @@ Si necesitas ayuda para configurar o instalar **WC - APG Viacompras payment gate
 
 == Screenshots ==
 1. Captura de pantalla de WC - APG Viacompras payment gateway.
+2. Captura de pantalla de WC - APG Viacompras payment gateway. Página de pedido.
 
 == Changelog ==
 = 0.1 =

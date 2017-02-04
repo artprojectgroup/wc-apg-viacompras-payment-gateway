@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce - APG Viacompras payment gateway v0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-02 19:06+0000\n"
-"PO-Revision-Date: 2017-02-02 19:38+0000\n"
+"POT-Creation-Date: 2017-02-04 11:12+0000\n"
+"PO-Revision-Date: 2017-02-04 11:12+0000\n"
 "Last-Translator: artprojectgroup <artprojectgroup@gmail.com>\n"
 "Language-Team: Spanish (Spain)\n"
 "MIME-Version: 1.0\n"
@@ -21,6 +21,10 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Textdomain-Support: yes\n"
 "Language: es-ES"
+
+#. Description of the plugin
+msgid "Add Viacompras payment gateway to WooCommerce."
+msgstr "Añade a WooCommerce la pasarela de pago Viacompras"
 
 #: apg-viacompras.php:48 includes/cuadro-informacion.php:7
 msgid "Make a donation by "
@@ -61,48 +65,6 @@ msgstr "Soporte técnico"
 #: apg-viacompras.php:99 apg-viacompras.php:144 apg-viacompras.php:150
 msgid "Viacompras"
 msgstr "Viacompras"
-
-#: apg-viacompras.php:372 includes/cuadro-informacion.php:44
-#, php-format
-msgid "Please, rate %s:"
-msgstr "Por favor, puntúa %s:"
-
-#: includes/cuadro-informacion.php:5
-msgid "If you enjoyed and find helpful this plugin, please make a donation:"
-msgstr ""
-"Si te ha gustado y resultado útil este plugin, por favor, haz una donación:"
-
-#: includes/cuadro-informacion.php:17
-msgid "Follow us:"
-msgstr "Síguenos:"
-
-#: includes/cuadro-informacion.php:23
-msgid "More plugins:"
-msgstr "Más plugins:"
-
-#: includes/cuadro-informacion.php:31
-msgid "Contact with us:"
-msgstr "Contacta con nosotros:"
-
-#: includes/cuadro-informacion.php:37
-msgid "Documentation and Support:"
-msgstr "Documentación y ayuda:"
-
-#. Name of the plugin
-msgid "WC - APG Viacompras payment gateway"
-msgstr "WC - APG Viacompras pasarela de pago"
-
-#. URI of the plugin
-msgid "https://wordpress.org/plugins/wc-apg-viacompras-payment-gateway/"
-msgstr "https://wordpress.org/plugins/wc-apg-viacompras-payment-gateway/"
-
-#. translators: plugin header field 'Author'
-msgid "Art Project Group"
-msgstr "Art Project Group"
-
-#. Author URI of the plugin
-msgid "http://artprojectgroup.es/"
-msgstr "http://artprojectgroup.es/"
 
 #: apg-viacompras.php:100
 msgid "Pay with credit card using Viacompras (Banco de Crédito BCP)"
@@ -181,6 +143,32 @@ msgstr "Pago a través de Viacompras completado"
 msgid "Payment error: code: %s."
 msgstr "Error en el pago: código: %s."
 
+#: apg-viacompras.php:372 includes/cuadro-informacion.php:44
+#, php-format
+msgid "Please, rate %s:"
+msgstr "Por favor, puntúa %s:"
+
+#: includes/cuadro-informacion.php:5
+msgid "If you enjoyed and find helpful this plugin, please make a donation:"
+msgstr ""
+"Si te ha gustado y resultado útil este plugin, por favor, haz una donación:"
+
+#: includes/cuadro-informacion.php:17
+msgid "Follow us:"
+msgstr "Síguenos:"
+
+#: includes/cuadro-informacion.php:23
+msgid "More plugins:"
+msgstr "Más plugins:"
+
+#: includes/cuadro-informacion.php:31
+msgid "Contact with us:"
+msgstr "Contacta con nosotros:"
+
+#: includes/cuadro-informacion.php:37
+msgid "Documentation and Support:"
+msgstr "Documentación y ayuda:"
+
 #: includes/formulario.php:5
 msgid ""
 "Viacompras works by sending the user to Viacompras to enter their payment "
@@ -189,6 +177,18 @@ msgstr ""
 "Viacompras funciona enviando el usuario a Viacompras para añadir la "
 "información de pago."
 
-#. translators: plugin header field 'Description'
-msgid "Add to WooCommerce Viacompras payment gateway."
-msgstr "Añade a WooCommerce la pasarela de pago Viacompras"
+#. Name of the plugin
+msgid "WC - APG Viacompras payment gateway"
+msgstr "WC - APG Viacompras pasarela de pago"
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/wc-apg-viacompras-payment-gateway/"
+msgstr "https://wordpress.org/plugins/wc-apg-viacompras-payment-gateway/"
+
+#. translators: plugin header field 'Author'
+msgid "Art Project Group"
+msgstr "Art Project Group"
+
+#. Author URI of the plugin
+msgid "http://artprojectgroup.es/"
+msgstr "http://artprojectgroup.es/"

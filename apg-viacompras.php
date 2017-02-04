@@ -3,7 +3,7 @@
 Plugin Name: WC - APG Viacompras payment gateway
 Version: 0.1
 Plugin URI: https://wordpress.org/plugins/wc-apg-viacompras-payment-gateway/
-Description: Add to WooCommerce Viacompras payment gateway.
+Description: Add Viacompras payment gateway to WooCommerce.
 Author URI: http://artprojectgroup.es/
 Author: Art Project Group
 Requires at least: 3.8
