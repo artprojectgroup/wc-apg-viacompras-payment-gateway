@@ -20,7 +20,7 @@ This program incorporates work covered by the following copyright and
 permission notices:
 
   WC - APG Viacompras payment gateway is Copyright (c) 2016 Art Project Group
-  http://artprojectgroup.es - http://artprojectgroup.es/plugins-para-wordpress/plugins-para-woocommerce/wc-apg-viacompras-payment-gateway
+  https://artprojectgroup.es - https://artprojectgroup.es/plugins-para-wordpress/plugins-para-woocommerce/wc-apg-viacompras-payment-gateway
 
   WC - APG Viacompras payment gateway is released under the GPL
 

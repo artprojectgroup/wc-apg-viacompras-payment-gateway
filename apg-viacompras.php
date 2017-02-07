@@ -1,10 +1,10 @@
 <?php
 /*
 Plugin Name: WC - APG Viacompras payment gateway
-Version: 0.1
+Version: 0.1.1
 Plugin URI: https://wordpress.org/plugins/wc-apg-viacompras-payment-gateway/
 Description: Add Viacompras payment gateway to WooCommerce.
-Author URI: http://artprojectgroup.es/
+Author URI: https://artprojectgroup.es/
 Author: Art Project Group
 Requires at least: 3.8
 Tested up to: 4.7.2
@@ -29,9 +29,9 @@ define( 'DIRECCION_apg_viacompras', plugin_basename( __FILE__ ) );
 $apg_viacompras = array(	
 	'plugin' 		=> 'WC - APG Viacompras payment gateway', 
 	'plugin_uri' 	=> 'wc-apg-viacompras-payment-gateway', 
-	'donacion' 		=> 'http://artprojectgroup.es/tienda/donacion',
-	'soporte' 		=> 'http://wcprojectgroup.es/tienda/ticket-de-soporte',
-	'plugin_url' 	=> 'http://artprojectgroup.es/plugins-para-wordpress/plugins-para-woocommerce/wc-apg-viacompras-payment-gateway', 
+	'donacion' 		=> 'https://artprojectgroup.es/tienda/donacion',
+	'soporte' 		=> 'https://wcprojectgroup.es/tienda/ticket-de-soporte',
+	'plugin_url' 	=> 'https://artprojectgroup.es/plugins-para-wordpress/plugins-para-woocommerce/wc-apg-viacompras-payment-gateway', 
 	'ajustes' 		=> 'admin.php?page=wc-settings&tab=checkout&section=viacompras', 
 	'puntuacion' 	=> 'https://wordpress.org/support/view/plugin-reviews/wc-apg-viacompras-payment-gateway'
 );
@@ -94,7 +94,7 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 			*/
 			public function __construct() {	
 				$this->id					= 'viacompras';
-				$this->icon 				= apply_filters('woocommerce_viacompras_icon', plugins_url( 'assets/images/viacompras.jpg' , __FILE__ ) );
+				$this->icon 				= apply_filters( 'woocommerce_viacompras_icon', plugins_url( 'assets/images/viacompras.jpg' , __FILE__ ) );
 				$this->url					= 'http://www.viacompras.com/pvv3reqeticket.asp';
 				$this->method_title			= __( 'Viacompras', 'apg_viacompras' );
 				$this->method_description	= __( 'Pay with credit card using Viacompras (Banco de Crédito BCP)', 'apg_viacompras' );
@@ -204,7 +204,7 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 				//Genera el JavaScript que enviará el formulario
 				wc_enqueue_js( '
 					jQuery( "body" ).block( {
-							message: "<img src=\"' . esc_url( apply_filters( 'woocommerce_ajax_loader_url', WC()->plugin_url() . '/assets/images/ajax-loader.gif' ) ) . '\" alt=\"Redirecting&hellip;\" style=\"float:left; margin-right: 10px;\" />' . __('Thank you for your order. We are now redirecting you to Viacompras to make payment.', 'apg_viacompras') . '",
+							message: "<img src=\"' . esc_url( apply_filters( 'woocommerce_viacompras_icon', plugins_url( 'assets/images/viacompras.jpg' , __FILE__ ) ) ) . '\" alt=\"Redirecting&hellip;\" style=\"float:left; margin-right: 10px;\" />' . __('Thank you for your order. We are now redirecting you to Viacompras to make payment.', 'apg_viacompras') . '",
 							overlayCSS: {
 								background:			"#fff",
 								opacity:			0.6
