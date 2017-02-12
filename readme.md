@@ -9,7 +9,7 @@ Requires at least: 3.8
 
 Tested up to: 4.7.2
 
-Stable tag: 0.1.1
+Stable tag: 0.1.2
 
 WC requires at least: 2.4
 
@@ -77,6 +77,9 @@ Si necesitas ayuda para configurar o instalar **WC - APG Viacompras payment gate
 *En ningún caso **Art Project Group** proporciona ningún tipo de soporte técnico gratuito.*
 
 ## Changelog
+### 0.1.2
+* Arreglo de paso final.
+
 ### 0.1.1
 * Cambio de icono final.
 
