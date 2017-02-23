@@ -4,7 +4,7 @@ Donate link: https://artprojectgroup.es/tienda/donacion
 Tags: woocommerce, commerce, e-commerce, commerce, shop, virtual shop, bcp, viacompras, payment gateway
 Requires at least: 3.8
 Tested up to: 4.7.2
-Stable tag: 0.1.2
+Stable tag: 0.1.2.1
 WC requires at least: 2.4
 WC tested up to: 2.7
 License: GPLv3
@@ -72,18 +72,18 @@ Si necesitas ayuda para configurar o instalar **WC - APG Viacompras payment gate
 2. Captura de pantalla de WC - APG Viacompras payment gateway. Página de pedido.
 
 == Changelog ==
+= 0.1.2.1 =
+* Arreglo de compatibilidad SSL.
 = 0.1.2 =
 * Arreglo de paso final.
-
 = 0.1.1 =
 * Cambio de icono final.
-
 = 0.1 =
 * Versión inicial.
 
 == Upgrade Notice ==
-= 0.1.2 =
-* Arreglo de paso final.
+= 0.1.2.1 =
+* Arreglo de compatibilidad SSL.
 
 ==Traducciones ==
 * *English*: by [**Art Project Group**](https://artprojectgroup.es/) (default language).
