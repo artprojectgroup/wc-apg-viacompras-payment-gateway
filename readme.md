@@ -7,13 +7,13 @@ Tags: woocommerce, commerce, e-commerce, commerce, shop, virtual shop, bcp, viac
 
 Requires at least: 3.8
 
-Tested up to: 4.7.2
+Tested up to: 4.7.3
 
-Stable tag: 0.1.2.1
+Stable tag: 0.1.2.2
 
 WC requires at least: 2.4
 
-WC tested up to: 2.7
+WC tested up to: 3.0
 
 License: GPLv3
 
@@ -77,6 +77,9 @@ Si necesitas ayuda para configurar o instalar **WC - APG Viacompras payment gate
 *En ningún caso **Art Project Group** proporciona ningún tipo de soporte técnico gratuito.*
 
 ## Changelog
+### 0.1.2.2
+* Soporte para instalaciones multisitio.
+
 ### 0.1.2.1
 * Arreglo de compatibilidad SSL.
 
