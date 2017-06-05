@@ -1,15 +1,15 @@
 <?php
 /*
 Plugin Name: WC - APG Viacompras payment gateway
-Version: 0.1.2.2
+Version: 0.1.2.3
 Plugin URI: https://wordpress.org/plugins/wc-apg-viacompras-payment-gateway/
 Description: Add Viacompras payment gateway to WooCommerce.
 Author URI: https://artprojectgroup.es/
 Author: Art Project Group
 Requires at least: 3.8
-Tested up to: 4.7.3
+Tested up to: 4.8
 
-Text Domain: apg_viacompras
+Text Domain: wc-apg-viacompras-payment-gateway
 Domain Path: /languages
 
 @package WC - APG Viacompras payment gateway
@@ -37,7 +37,7 @@ $apg_viacompras = array(
 );
 
 //Carga el idioma
-load_plugin_textdomain( 'apg_viacompras', null, dirname( DIRECCION_apg_viacompras ) . '/languages' );
+load_plugin_textdomain( 'wc-apg-viacompras-payment-gateway', null, dirname( DIRECCION_apg_viacompras ) . '/languages' );
 
 //Enlaces adicionales personalizados
 function apg_viacompras_enlaces( $enlaces, $archivo ) {
@@ -45,11 +45,11 @@ function apg_viacompras_enlaces( $enlaces, $archivo ) {
 
 	if ( $archivo == DIRECCION_apg_viacompras ) {
 		$plugin = apg_viacompras_plugin( $apg_viacompras['plugin_uri'] );
-		$enlaces[] = '<a href="' . $apg_viacompras['donacion'] . '" target="_blank" title="' . __( 'Make a donation by ', 'apg_viacompras' ) . 'APG"><span class="genericon genericon-cart"></span></a>';
+		$enlaces[] = '<a href="' . $apg_viacompras['donacion'] . '" target="_blank" title="' . __( 'Make a donation by ', 'wc-apg-viacompras-payment-gateway' ) . 'APG"><span class="genericon genericon-cart"></span></a>';
 		$enlaces[] = '<a href="'. $apg_viacompras['plugin_url'] . '" target="_blank" title="' . $apg_viacompras['plugin'] . '"><strong class="artprojectgroup">APG</strong></a>';
-		$enlaces[] = '<a href="https://www.facebook.com/artprojectgroup" title="' . __( 'Follow us on ', 'apg_viacompras' ) . 'Facebook" target="_blank"><span class="genericon genericon-facebook-alt"></span></a> <a href="https://twitter.com/artprojectgroup" title="' . __( 'Follow us on ', 'apg_viacompras' ) . 'Twitter" target="_blank"><span class="genericon genericon-twitter"></span></a> <a href="https://plus.google.com/+ArtProjectGroupES" title="' . __( 'Follow us on ', 'apg_viacompras' ) . 'Google+" target="_blank"><span class="genericon genericon-googleplus-alt"></span></a> <a href="http://es.linkedin.com/in/artprojectgroup" title="' . __( 'Follow us on ', 'apg_viacompras' ) . 'LinkedIn" target="_blank"><span class="genericon genericon-linkedin"></span></a>';
-		$enlaces[] = '<a href="https://profiles.wordpress.org/artprojectgroup/" title="' . __( 'More plugins on ', 'apg_viacompras' ) . 'WordPress" target="_blank"><span class="genericon genericon-wordpress"></span></a>';
-		$enlaces[] = '<a href="mailto:info@artprojectgroup.es" title="' . __( 'Contact with us by ', 'apg_viacompras' ) . 'e-mail"><span class="genericon genericon-mail"></span></a> <a href="skype:artprojectgroup" title="' . __( 'Contact with us by ', 'apg_viacompras' ) . 'Skype"><span class="genericon genericon-skype"></span></a>';
+		$enlaces[] = '<a href="https://www.facebook.com/artprojectgroup" title="' . __( 'Follow us on ', 'wc-apg-viacompras-payment-gateway' ) . 'Facebook" target="_blank"><span class="genericon genericon-facebook-alt"></span></a> <a href="https://twitter.com/artprojectgroup" title="' . __( 'Follow us on ', 'wc-apg-viacompras-payment-gateway' ) . 'Twitter" target="_blank"><span class="genericon genericon-twitter"></span></a> <a href="https://plus.google.com/+ArtProjectGroupES" title="' . __( 'Follow us on ', 'wc-apg-viacompras-payment-gateway' ) . 'Google+" target="_blank"><span class="genericon genericon-googleplus-alt"></span></a> <a href="http://es.linkedin.com/in/artprojectgroup" title="' . __( 'Follow us on ', 'wc-apg-viacompras-payment-gateway' ) . 'LinkedIn" target="_blank"><span class="genericon genericon-linkedin"></span></a>';
+		$enlaces[] = '<a href="https://profiles.wordpress.org/artprojectgroup/" title="' . __( 'More plugins on ', 'wc-apg-viacompras-payment-gateway' ) . 'WordPress" target="_blank"><span class="genericon genericon-wordpress"></span></a>';
+		$enlaces[] = '<a href="mailto:info@artprojectgroup.es" title="' . __( 'Contact with us by ', 'wc-apg-viacompras-payment-gateway' ) . 'e-mail"><span class="genericon genericon-mail"></span></a> <a href="skype:artprojectgroup" title="' . __( 'Contact with us by ', 'wc-apg-viacompras-payment-gateway' ) . 'Skype"><span class="genericon genericon-skype"></span></a>';
 		$enlaces[] = apg_viacompras_plugin( $apg_viacompras['plugin_uri'] );
 	}
 	
@@ -62,8 +62,8 @@ function apg_viacompras_enlace_de_ajustes( $enlaces ) {
 	global $apg_viacompras;
 
 	$enlaces_de_ajustes = array(
-		'<a href="' . $apg_viacompras['ajustes'] . '" title="' . __( 'Settings of ', 'apg_viacompras' ) . $apg_viacompras['plugin'] .'">' . __( 'Settings', 'apg_viacompras' ) . '</a>', 
-		'<a href="' . $apg_viacompras['soporte'] . '" title="' . __( 'Support of ', 'apg_viacompras' ) . $apg_viacompras['plugin'] .'">' . __( 'Support', 'apg_viacompras' ) . '</a>'
+		'<a href="' . $apg_viacompras['ajustes'] . '" title="' . __( 'Settings of ', 'wc-apg-viacompras-payment-gateway' ) . $apg_viacompras['plugin'] .'">' . __( 'Settings', 'wc-apg-viacompras-payment-gateway' ) . '</a>', 
+		'<a href="' . $apg_viacompras['soporte'] . '" title="' . __( 'Support of ', 'wc-apg-viacompras-payment-gateway' ) . $apg_viacompras['plugin'] .'">' . __( 'Support', 'wc-apg-viacompras-payment-gateway' ) . '</a>'
 	);
 	foreach ( $enlaces_de_ajustes as $enlace_de_ajustes ) {
 		array_unshift( $enlaces, $enlace_de_ajustes );
@@ -97,8 +97,8 @@ if ( is_plugin_active( 'woocommerce/woocommerce.php' ) || is_network_only_plugin
 				$this->id					= 'viacompras';
 				$this->icon 				= apply_filters( 'woocommerce_viacompras_icon', plugins_url( 'assets/images/viacompras.jpg' , __FILE__ ) );
 				$this->url					= 'https://www.viacompras.com/pvv3reqeticket.asp';
-				$this->method_title			= __( 'Viacompras', 'apg_viacompras' );
-				$this->method_description	= __( 'Pay with credit card using Viacompras (Banco de Crédito BCP)', 'apg_viacompras' );
+				$this->method_title			= __( 'Viacompras', 'wc-apg-viacompras-payment-gateway' );
+				$this->method_description	= __( 'Pay with credit card using Viacompras (Banco de Crédito BCP)', 'wc-apg-viacompras-payment-gateway' );
 				$this->notify_url   		= WC()->api_request_url( 'WC_Viacompras' );
 	                
 				//Carga los campos del formulario
@@ -133,28 +133,28 @@ if ( is_plugin_active( 'woocommerce/woocommerce.php' ) || is_network_only_plugin
 		    public function init_form_fields() {
 		    	$this->form_fields = array(
 					'enabled'		=> array(
-									'title'			=> __( 'Enable/Disable', 'apg_viacompras' ),
+									'title'			=> __( 'Enable/Disable', 'wc-apg-viacompras-payment-gateway' ),
 									'type'			=> 'checkbox',
-									'label' 		=> __( 'Enable Viacompras', 'apg_viacompras' ),
+									'label' 		=> __( 'Enable Viacompras', 'wc-apg-viacompras-payment-gateway' ),
 									'default'		=> 'yes'
 								),
 					'commerce_name'	=> array(
-									'title'			=> __( 'Commerce name', 'apg_viacompras' ),
+									'title'			=> __( 'Commerce name', 'wc-apg-viacompras-payment-gateway' ),
 									'type'			=> 'text',
-									'description'	=> __( 'The commerce name.', 'apg_viacompras' ),
-									'default'		=> __( 'Viacompras', 'apg_viacompras' )
+									'description'	=> __( 'The commerce name.', 'wc-apg-viacompras-payment-gateway' ),
+									'default'		=> __( 'Viacompras', 'wc-apg-viacompras-payment-gateway' )
 								),
 					'title'			=> array(
-									'title'			=> __( 'Title', 'apg_viacompras' ),
+									'title'			=> __( 'Title', 'wc-apg-viacompras-payment-gateway' ),
 									'type'			=> 'text',
-									'description'	=> __( 'This controls the title which the user sees during checkout.', 'apg_viacompras' ),
-									'default'		=> __( 'Viacompras', 'apg_viacompras' )
+									'description'	=> __( 'This controls the title which the user sees during checkout.', 'wc-apg-viacompras-payment-gateway' ),
+									'default'		=> __( 'Viacompras', 'wc-apg-viacompras-payment-gateway' )
 								),
 					'description'	=> array(
-									'title'			=> __( 'Description', 'apg_viacompras' ),
+									'title'			=> __( 'Description', 'wc-apg-viacompras-payment-gateway' ),
 									'type'			=> 'textarea',
-									'description'	=> __( 'This controls the description which the user sees during checkout.', 'apg_viacompras' ),
-									'default'		=> __("Pay with your credit card via Viacompras", 'apg_viacompras')
+									'description'	=> __( 'This controls the description which the user sees during checkout.', 'wc-apg-viacompras-payment-gateway' ),
+									'default'		=> __( 'Pay with your credit card via Viacompras', 'wc-apg-viacompras-payment-gateway' )
 								),
 					);
 		    }
@@ -192,7 +192,7 @@ if ( is_plugin_active( 'woocommerce/woocommerce.php' ) || is_network_only_plugin
         		setcookie( 'apg_viacompras', $numero_pedido, time() + 3600, COOKIEPATH, COOKIE_DOMAIN, false);
 				
 				//Muestra un mensaje en pantalla mientras terminamos el procesamiento del pedido
-				echo '<p>' . __('Thank you for your order, please click the button below to pay with Viacompras.', 'apg_viacompras') . '</p>';
+				echo '<p>' . __( 'Thank you for your order, please click the button below to pay with Viacompras.', 'wc-apg-viacompras-payment-gateway' ) . '</p>';
 				
 				//Obtiene los datos que tenemos que enviar		
 				$viacompras_args = $this->apg_viacompras_dame_datos( $pedido );
@@ -205,7 +205,7 @@ if ( is_plugin_active( 'woocommerce/woocommerce.php' ) || is_network_only_plugin
 				//Genera el JavaScript que enviará el formulario
 				wc_enqueue_js( '
 					jQuery( "body" ).block( {
-							message: "<img src=\"' . esc_url( apply_filters( 'woocommerce_viacompras_icon', plugins_url( 'assets/images/viacompras.jpg' , __FILE__ ) ) ) . '\" alt=\"Redirecting&hellip;\" style=\"float:left; margin-right: 10px;\" />' . __('Thank you for your order. We are now redirecting you to Viacompras to make payment.', 'apg_viacompras') . '",
+							message: "<img src=\"' . esc_url( apply_filters( 'woocommerce_viacompras_icon', plugins_url( 'assets/images/viacompras.jpg' , __FILE__ ) ) ) . '\" alt=\"Redirecting&hellip;\" style=\"float:left; margin-right: 10px;\" />' . __( 'Thank you for your order. We are now redirecting you to Viacompras to make payment.', 'wc-apg-viacompras-payment-gateway' ) . '",
 							overlayCSS: {
 								background:			"#fff",
 								opacity:			0.6
@@ -220,7 +220,7 @@ if ( is_plugin_active( 'woocommerce/woocommerce.php' ) || is_network_only_plugin
 						        lineHeight:			"32px"
 						    }
 						} );
-					jQuery( "#submit_viacompras_payment_form" ).click();
+					jQuery( "#viacompras_payment_form" ).submit();
 				' );
 		
 				//Genera el formulario
@@ -228,7 +228,7 @@ if ( is_plugin_active( 'woocommerce/woocommerce.php' ) || is_network_only_plugin
 						' . implode( '', $viacompras_args_inputs ) . '
 						<!-- Botón -->
 						<div class="payment_buttons">
-							<input type="submit" class="button-alt" id="submit_viacompras_payment_form" value="' . __('Pay via Viacompras', 'apg_viacompras').'" /> <a class="button cancel" href="' . esc_url( $pedido->get_cancel_order_url() ) . '">' . __('Cancel order &amp; restore cart', 'apg_viacompras') . '</a>
+							<input type="submit" class="button-alt" id="submit_viacompras_payment_form" value="' . __( 'Pay via Viacompras', 'wc-apg-viacompras-payment-gateway' ).'" /> <a class="button cancel" href="' . esc_url( $pedido->get_cancel_order_url() ) . '">' . __( 'Cancel order &amp; restore cart', 'wc-apg-viacompras-payment-gateway' ) . '</a>
 						</div>
 						<script type="text/javascript">
 							jQuery( ".payment_buttons" ).hide();
@@ -284,14 +284,14 @@ if ( is_plugin_active( 'woocommerce/woocommerce.php' ) || is_network_only_plugin
 						}
 
 						//Marca el pedido como Procesando
-						$pedido->add_order_note( __('Viacompras payment completed', 'apg_viacompras') );
+						$pedido->add_order_note( __( 'Viacompras payment completed', 'wc-apg-viacompras-payment-gateway' ) );
 						$pedido->payment_complete();
 						wp_redirect( $this->get_return_url( $pedido ) ); 
 						die( 'Proceso completado con éxito.' );
 			        }
 			    }
 				//Marca el pedido como Fallido
-			    $message = sprintf( __( 'Payment error: code: %s.', 'apg_viacompras' ), $_POST['cre'] );
+			    $message = sprintf( __( 'Payment error: code: %s.', 'wc-apg-viacompras-payment-gateway' ), $_POST['cre'] );
 				$pedido->update_status( 'failed', $message );
 				wp_redirect( $pedido->get_cancel_order_url() );
 				die( 'Proceso fallido.' );
@@ -307,7 +307,7 @@ if ( is_plugin_active( 'woocommerce/woocommerce.php' ) || is_network_only_plugin
 			return $metodos;
 		}
 		
-		add_filter('woocommerce_payment_gateways', 'apg_viacompras_anade_pago' );
+		add_filter( 'woocommerce_payment_gateways', 'apg_viacompras_anade_pago' );
 	}
 	add_action( 'plugins_loaded', 'init_apg_viacompras', 0 );
 
@@ -370,7 +370,7 @@ function apg_viacompras_plugin( $nombre ) {
 	$estrellas = ob_get_contents();
 	ob_end_clean();
 
-	return '<a title="' . sprintf( __( 'Please, rate %s:', 'apg_viacompras' ), $apg_viacompras['plugin'] ) . '" href="' . $apg_viacompras['puntuacion'] . '?rate=5#postform" class="estrellas">' . $estrellas . '</a>';
+	return '<a title="' . sprintf( __( 'Please, rate %s:', 'wc-apg-viacompras-payment-gateway' ), $apg_viacompras['plugin'] ) . '" href="' . $apg_viacompras['puntuacion'] . '?rate=5#postform" class="estrellas">' . $estrellas . '</a>';
 }
 
 /*

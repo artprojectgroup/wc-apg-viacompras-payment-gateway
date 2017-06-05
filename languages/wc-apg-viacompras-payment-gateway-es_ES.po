@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce - APG Viacompras payment gateway v0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-04 11:12+0000\n"
-"PO-Revision-Date: 2017-02-04 11:12+0000\n"
-"Last-Translator: artprojectgroup <artprojectgroup@gmail.com>\n"
+"POT-Creation-Date: 2017-06-05 18:59+0000\n"
+"PO-Revision-Date: 2017-06-05 18:59+0000\n"
+"Last-Translator: Emilio José Calvo Carrasco <artprojectgroup@gmail.com>\n"
 "Language-Team: Spanish (Spain)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,9 +22,9 @@ msgstr ""
 "X-Textdomain-Support: yes\n"
 "Language: es-ES"
 
-#. Description of the plugin
-msgid "Add Viacompras payment gateway to WooCommerce."
-msgstr "Añade a WooCommerce la pasarela de pago Viacompras"
+#. Author URI of the plugin
+msgid "https://artprojectgroup.es/"
+msgstr "https://artprojectgroup.es/"
 
 #: apg-viacompras.php:48 includes/cuadro-informacion.php:7
 msgid "Make a donation by "
@@ -62,55 +62,55 @@ msgstr "Soporte técnico de "
 msgid "Support"
 msgstr "Soporte técnico"
 
-#: apg-viacompras.php:99 apg-viacompras.php:144 apg-viacompras.php:150
+#: apg-viacompras.php:100 apg-viacompras.php:145 apg-viacompras.php:151
 msgid "Viacompras"
 msgstr "Viacompras"
 
-#: apg-viacompras.php:100
+#: apg-viacompras.php:101
 msgid "Pay with credit card using Viacompras (Banco de Crédito BCP)"
 msgstr "Pague con tarjeta de crédito usando Viacompras (Banco de Crédito BCP)"
 
-#: apg-viacompras.php:135
+#: apg-viacompras.php:136
 msgid "Enable/Disable"
 msgstr "Activar/Desactivar"
 
-#: apg-viacompras.php:137
+#: apg-viacompras.php:138
 msgid "Enable Viacompras"
 msgstr "Activar Viacompras"
 
-#: apg-viacompras.php:141
+#: apg-viacompras.php:142
 msgid "Commerce name"
 msgstr "Nombre de comercio"
 
-#: apg-viacompras.php:143
+#: apg-viacompras.php:144
 msgid "The commerce name."
 msgstr "El nombre del comercio."
 
-#: apg-viacompras.php:147
+#: apg-viacompras.php:148
 msgid "Title"
 msgstr "Título"
 
-#: apg-viacompras.php:149
+#: apg-viacompras.php:150
 msgid "This controls the title which the user sees during checkout."
 msgstr ""
 "Esto controla el título que el usuario ve durante la finalización de la "
 "compra."
 
-#: apg-viacompras.php:153
+#: apg-viacompras.php:154
 msgid "Description"
 msgstr "Descripción"
 
-#: apg-viacompras.php:155
+#: apg-viacompras.php:156
 msgid "This controls the description which the user sees during checkout."
 msgstr ""
 "Esto controla la descripción que los usuarios verán durante la finalización "
 "de la compra."
 
-#: apg-viacompras.php:156
+#: apg-viacompras.php:157
 msgid "Pay with your credit card via Viacompras"
 msgstr "Pagar con tarjeta de crédito a través de Viacompras"
 
-#: apg-viacompras.php:194
+#: apg-viacompras.php:195
 msgid ""
 "Thank you for your order, please click the button below to pay with "
 "Viacompras."
@@ -118,7 +118,7 @@ msgstr ""
 "Gracias por su pedido. Por favor, espere unos instantes antes de ser "
 "redirigido a nuestra plataforma de pago seguro."
 
-#: apg-viacompras.php:207
+#: apg-viacompras.php:208
 msgid ""
 "Thank you for your order. We are now redirecting you to Viacompras to make "
 "payment."
@@ -126,24 +126,24 @@ msgstr ""
 "Gracias por su pedido. Estamos redirigiéndole a Viacompras para realizar el "
 "pago."
 
-#: apg-viacompras.php:230
+#: apg-viacompras.php:231
 msgid "Pay via Viacompras"
 msgstr "Pago vía Viacompras"
 
-#: apg-viacompras.php:230
+#: apg-viacompras.php:231
 msgid "Cancel order &amp; restore cart"
 msgstr "Cancelar pedido y recuperar carro"
 
-#: apg-viacompras.php:286
+#: apg-viacompras.php:287
 msgid "Viacompras payment completed"
 msgstr "Pago a través de Viacompras completado"
 
-#: apg-viacompras.php:293
+#: apg-viacompras.php:294
 #, php-format
 msgid "Payment error: code: %s."
 msgstr "Error en el pago: código: %s."
 
-#: apg-viacompras.php:372 includes/cuadro-informacion.php:44
+#: apg-viacompras.php:373 includes/cuadro-informacion.php:44
 #, php-format
 msgid "Please, rate %s:"
 msgstr "Por favor, puntúa %s:"
@@ -181,6 +181,10 @@ msgstr ""
 msgid "WC - APG Viacompras payment gateway"
 msgstr "WC - APG Viacompras pasarela de pago"
 
+#. Description of the plugin
+msgid "Add Viacompras payment gateway to WooCommerce."
+msgstr "Añade a WooCommerce la pasarela de pago Viacompras"
+
 #. URI of the plugin
 msgid "https://wordpress.org/plugins/wc-apg-viacompras-payment-gateway/"
 msgstr "https://wordpress.org/plugins/wc-apg-viacompras-payment-gateway/"
@@ -188,7 +192,3 @@ msgstr "https://wordpress.org/plugins/wc-apg-viacompras-payment-gateway/"
 #. translators: plugin header field 'Author'
 msgid "Art Project Group"
 msgstr "Art Project Group"
-
-#. Author URI of the plugin
-msgid "http://artprojectgroup.es/"
-msgstr "http://artprojectgroup.es/"

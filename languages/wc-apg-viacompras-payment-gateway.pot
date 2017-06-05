@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-04 11:12+0000\n"
+"POT-Creation-Date: 2017-06-05 18:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -50,80 +50,80 @@ msgstr ""
 msgid "Support"
 msgstr ""
 
-#: apg-viacompras.php:99 apg-viacompras.php:144 apg-viacompras.php:150
+#: apg-viacompras.php:100 apg-viacompras.php:145 apg-viacompras.php:151
 msgid "Viacompras"
 msgstr ""
 
-#: apg-viacompras.php:100
+#: apg-viacompras.php:101
 msgid "Pay with credit card using Viacompras (Banco de Crédito BCP)"
 msgstr ""
 
-#: apg-viacompras.php:135
+#: apg-viacompras.php:136
 msgid "Enable/Disable"
 msgstr ""
 
-#: apg-viacompras.php:137
+#: apg-viacompras.php:138
 msgid "Enable Viacompras"
 msgstr ""
 
-#: apg-viacompras.php:141
+#: apg-viacompras.php:142
 msgid "Commerce name"
 msgstr ""
 
-#: apg-viacompras.php:143
+#: apg-viacompras.php:144
 msgid "The commerce name."
 msgstr ""
 
-#: apg-viacompras.php:147
+#: apg-viacompras.php:148
 msgid "Title"
 msgstr ""
 
-#: apg-viacompras.php:149
+#: apg-viacompras.php:150
 msgid "This controls the title which the user sees during checkout."
 msgstr ""
 
-#: apg-viacompras.php:153
+#: apg-viacompras.php:154
 msgid "Description"
 msgstr ""
 
-#: apg-viacompras.php:155
+#: apg-viacompras.php:156
 msgid "This controls the description which the user sees during checkout."
 msgstr ""
 
-#: apg-viacompras.php:156
+#: apg-viacompras.php:157
 msgid "Pay with your credit card via Viacompras"
 msgstr ""
 
-#: apg-viacompras.php:194
+#: apg-viacompras.php:195
 msgid ""
 "Thank you for your order, please click the button below to pay with "
 "Viacompras."
 msgstr ""
 
-#: apg-viacompras.php:207
+#: apg-viacompras.php:208
 msgid ""
 "Thank you for your order. We are now redirecting you to Viacompras to make "
 "payment."
 msgstr ""
 
-#: apg-viacompras.php:230
+#: apg-viacompras.php:231
 msgid "Pay via Viacompras"
 msgstr ""
 
-#: apg-viacompras.php:230
+#: apg-viacompras.php:231
 msgid "Cancel order &amp; restore cart"
 msgstr ""
 
-#: apg-viacompras.php:286
+#: apg-viacompras.php:287
 msgid "Viacompras payment completed"
 msgstr ""
 
-#: apg-viacompras.php:293
+#: apg-viacompras.php:294
 #, php-format
 msgid "Payment error: code: %s."
 msgstr ""
 
-#: apg-viacompras.php:372 includes/cuadro-informacion.php:44
+#: apg-viacompras.php:373 includes/cuadro-informacion.php:44
 #, php-format
 msgid "Please, rate %s:"
 msgstr ""
@@ -171,5 +171,5 @@ msgid "Art Project Group"
 msgstr ""
 
 #. Author URI of the plugin
-msgid "http://artprojectgroup.es/"
+msgid "https://artprojectgroup.es/"
 msgstr ""
