@@ -3,10 +3,10 @@ Contributors: artprojectgroup
 Donate link: https://artprojectgroup.es/tienda/donacion
 Tags: woocommerce, commerce, e-commerce, commerce, shop, virtual shop, bcp, viacompras, payment gateway
 Requires at least: 3.8
-Tested up to: 4.8
-Stable tag: 0.1.2.3
+Tested up to: 4.9.1
+Stable tag: 0.1.2.4
 WC requires at least: 2.4
-WC tested up to: 3.1
+WC tested up to: 3.3
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -25,7 +25,7 @@ Add Viacompras payment gateway to WooCommerce.
 * English ([**Art Project Group**](https://artprojectgroup.es/)).
 
 = Technical support =
-**Art Project Group** offers [**Technical support**](https://wcprojectgroup.es/tienda/ticket-de-soporte) to configure or install ***WC - APG Viacompras payment gateway***.
+**Art Project Group** offers [**Technical support**](https://artprojectgroup.es/tienda/ticket-de-soporte) to configure or install ***WC - APG Viacompras payment gateway***.
 
 = Origin =
 **WC - APG Viacompras payment gateway** has been programmed from plugin [*WooCommerce Sermepa payment gateway*](https://wordpress.org/plugins/woocommerce-sermepa-payment-gateway/) by [jesusangel](https://profiles.wordpress.org/jesusangel/).
@@ -63,7 +63,7 @@ The plugin settings is very simple, you just must indicate the commerce name.
 Remember that you can also customize the title and description according to your own needs.
 
 = Support =
-If you need help to configuring or installing **WC - APG Viacompras payment gateway**, **Art Project Group** offers its service [**Technical Support**](https://wcprojectgroup.es/tienda/ticket-de-soporte). 
+If you need help to configuring or installing **WC - APG Viacompras payment gateway**, **Art Project Group** offers its service [**Technical Support**](https://artprojectgroup.es/tienda/ticket-de-soporte). 
 
 *In any case **Art Project Group** provides any kind of free technical support.*
 
@@ -72,6 +72,10 @@ If you need help to configuring or installing **WC - APG Viacompras payment gate
 2. Screenshot of WC - APG Viacompras payment gateway. Checkout page.
 
 == Changelog ==
+= 0.1.2.4 =
+* Header updated.
+* Stylesheet updated.
+* Screenshot updated.
 = 0.1.2.3 =
 * Fixed localization.
 = 0.1.2.2 =
@@ -86,15 +90,17 @@ If you need help to configuring or installing **WC - APG Viacompras payment gate
 * Initial version.
 
 == Upgrade Notice ==
-= 0.1.2.2 =
-* Support for multisite installations.
+= 0.1.2.4 =
+* Header updated.
+* Stylesheet updated.
+* Screenshot updated.
 
 == Translations ==
 * *English*: by [**Art Project Group**](https://artprojectgroup.es/) (default language).
 * *Español*: por [**Art Project Group**](https://artprojectgroup.es/).
 
 == Support ==
-Since **WC - APG Viacompras payment gateway** is totally free, **Art Project Group** only provides payment [**Technical Support**](https://wcprojectgroup.es/tienda/ticket-de-soporte) service. In any case **Art Project Group** provide any kind of free technical support.
+Since **WC - APG Viacompras payment gateway** is totally free, **Art Project Group** only provides payment [**Technical Support**](https://artprojectgroup.es/tienda/ticket-de-soporte) service. In any case **Art Project Group** provide any kind of free technical support.
 
 == Donation ==
 Did you liked and you have proved useful **WC - APG Viacompras payment gateway** on your website? We would appreciate a [small donation](https://artprojectgroup.es/tienda/donacion) that will help us to continue improving this plugin and create more plugins totally free for the entire WordPress community.

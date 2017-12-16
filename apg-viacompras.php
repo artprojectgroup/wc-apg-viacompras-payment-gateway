@@ -1,13 +1,15 @@
 <?php
 /*
 Plugin Name: WC - APG Viacompras payment gateway
-Version: 0.1.2.3
+Version: 0.1.2.4
 Plugin URI: https://wordpress.org/plugins/wc-apg-viacompras-payment-gateway/
 Description: Add Viacompras payment gateway to WooCommerce.
 Author URI: https://artprojectgroup.es/
 Author: Art Project Group
 Requires at least: 3.8
-Tested up to: 4.8
+Tested up to: 4.9.1
+WC requires at least: 2.1
+WC tested up to: 3.3
 
 Text Domain: wc-apg-viacompras-payment-gateway
 Domain Path: /languages
@@ -30,7 +32,7 @@ $apg_viacompras = array(
 	'plugin' 		=> 'WC - APG Viacompras payment gateway', 
 	'plugin_uri' 	=> 'wc-apg-viacompras-payment-gateway', 
 	'donacion' 		=> 'https://artprojectgroup.es/tienda/donacion',
-	'soporte' 		=> 'https://wcprojectgroup.es/tienda/ticket-de-soporte',
+	'soporte' 		=> 'https://artprojectgroup.es/tienda/ticket-de-soporte',
 	'plugin_url' 	=> 'https://artprojectgroup.es/plugins-para-wordpress/plugins-para-woocommerce/wc-apg-viacompras-payment-gateway', 
 	'ajustes' 		=> 'admin.php?page=wc-settings&tab=checkout&section=viacompras', 
 	'puntuacion' 	=> 'https://wordpress.org/support/view/plugin-reviews/wc-apg-viacompras-payment-gateway'
