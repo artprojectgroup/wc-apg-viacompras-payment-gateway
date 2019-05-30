@@ -1,15 +1,15 @@
 <?php
 /*
 Plugin Name: WC - APG Viacompras payment gateway
-Version: 0.1.2.4
+Version: 0.1.2.5
 Plugin URI: https://wordpress.org/plugins/wc-apg-viacompras-payment-gateway/
 Description: Add Viacompras payment gateway to WooCommerce.
 Author URI: https://artprojectgroup.es/
 Author: Art Project Group
 Requires at least: 3.8
-Tested up to: 4.9.1
+Tested up to: 5.2
 WC requires at least: 2.1
-WC tested up to: 3.3
+WC tested up to: 3.6
 
 Text Domain: wc-apg-viacompras-payment-gateway
 Domain Path: /languages
@@ -49,7 +49,7 @@ function apg_viacompras_enlaces( $enlaces, $archivo ) {
 		$plugin = apg_viacompras_plugin( $apg_viacompras['plugin_uri'] );
 		$enlaces[] = '<a href="' . $apg_viacompras['donacion'] . '" target="_blank" title="' . __( 'Make a donation by ', 'wc-apg-viacompras-payment-gateway' ) . 'APG"><span class="genericon genericon-cart"></span></a>';
 		$enlaces[] = '<a href="'. $apg_viacompras['plugin_url'] . '" target="_blank" title="' . $apg_viacompras['plugin'] . '"><strong class="artprojectgroup">APG</strong></a>';
-		$enlaces[] = '<a href="https://www.facebook.com/artprojectgroup" title="' . __( 'Follow us on ', 'wc-apg-viacompras-payment-gateway' ) . 'Facebook" target="_blank"><span class="genericon genericon-facebook-alt"></span></a> <a href="https://twitter.com/artprojectgroup" title="' . __( 'Follow us on ', 'wc-apg-viacompras-payment-gateway' ) . 'Twitter" target="_blank"><span class="genericon genericon-twitter"></span></a> <a href="https://plus.google.com/+ArtProjectGroupES" title="' . __( 'Follow us on ', 'wc-apg-viacompras-payment-gateway' ) . 'Google+" target="_blank"><span class="genericon genericon-googleplus-alt"></span></a> <a href="http://es.linkedin.com/in/artprojectgroup" title="' . __( 'Follow us on ', 'wc-apg-viacompras-payment-gateway' ) . 'LinkedIn" target="_blank"><span class="genericon genericon-linkedin"></span></a>';
+		$enlaces[] = '<a href="https://www.facebook.com/artprojectgroup" title="' . __( 'Follow us on ', 'wc-apg-viacompras-payment-gateway' ) . 'Facebook" target="_blank"><span class="genericon genericon-facebook-alt"></span></a> <a href="https://twitter.com/artprojectgroup" title="' . __( 'Follow us on ', 'wc-apg-viacompras-payment-gateway' ) . 'Twitter" target="_blank"><span class="genericon genericon-twitter"></span></a> <a href="https://plus.google.com/+ArtProjectGroupES" title="' . __( 'Follow us on ', 'wc-apg-viacompras-payment-gateway' ) . 'Google+" target="_blank"><span class="genericon genericon-googleplus-alt"></span></a> <a href="https://es.linkedin.com/in/artprojectgroup" title="' . __( 'Follow us on ', 'wc-apg-viacompras-payment-gateway' ) . 'LinkedIn" target="_blank"><span class="genericon genericon-linkedin"></span></a>';
 		$enlaces[] = '<a href="https://profiles.wordpress.org/artprojectgroup/" title="' . __( 'More plugins on ', 'wc-apg-viacompras-payment-gateway' ) . 'WordPress" target="_blank"><span class="genericon genericon-wordpress"></span></a>';
 		$enlaces[] = '<a href="mailto:info@artprojectgroup.es" title="' . __( 'Contact with us by ', 'wc-apg-viacompras-payment-gateway' ) . 'e-mail"><span class="genericon genericon-mail"></span></a> <a href="skype:artprojectgroup" title="' . __( 'Contact with us by ', 'wc-apg-viacompras-payment-gateway' ) . 'Skype"><span class="genericon genericon-skype"></span></a>';
 		$enlaces[] = apg_viacompras_plugin( $apg_viacompras['plugin_uri'] );
@@ -317,12 +317,10 @@ if ( is_plugin_active( 'woocommerce/woocommerce.php' ) || is_network_only_plugin
 	Carga las hojas de estilo
 	*/
 	function apg_viacompras_hojas_de_estilo() {
-		//Carga la hoja de estilo
-		wp_register_style( 'apg_viacompras_hoja_de_estilo', plugins_url( 'assets/css/style.css', __FILE__ ) );
-		//Carga la hoja de estilo global
-		wp_enqueue_style( 'apg_viacompras_hoja_de_estilo' ); 
+		wp_register_style( 'apg_viacompras_hoja_de_estilo', plugins_url( 'assets/css/style.css', __FILE__ ) ); //Carga la hoja de estilo		
+		wp_enqueue_style( 'apg_viacompras_hoja_de_estilo' ); //Carga la hoja de estilo global
 	}
-	add_action( 'admin_init', 'apg_viacompras_hojas_de_estilo' );
+	add_action( 'admin_enqueue_scripts', 'apg_viacompras_hojas_de_estilo' );
 
 	/*
 	Carga los scripts y CSS de WooCommerce
@@ -351,7 +349,7 @@ function apg_viacompras_plugin( $nombre ) {
 	);
 	$respuesta = get_transient( 'apg_viacompras_plugin' );
 	if ( false === $respuesta ) {
-		$respuesta = wp_remote_post( 'http://api.wordpress.org/plugins/info/1.0/', array( 
+		$respuesta = wp_remote_post( 'https://api.wordpress.org/plugins/info/1.0/', array( 
 			'body' => $consulta)
 		);
 		set_transient( 'apg_viacompras_plugin', $respuesta, 24 * HOUR_IN_SECONDS );
